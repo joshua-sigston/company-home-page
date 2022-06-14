@@ -1,0 +1,38 @@
+.contact__container {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-image: url('/resources/images/contact-cover.jpg');
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact__container h2 {
+    color: var(--font-secondary);
+}
+
+.contact__info-container {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 2rem;
+}
+
+.social__media-container {
+    font-size: 3.5rem;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.social__media-container a {
+    color: var(--font-main);
+    transition: .4s ease-in-out;
+}
+
+.social__media-container a:hover {
+    color: var(--accent);
+}

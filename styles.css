@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Quicksand&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif; */
+}
+
+
+:root {
+    --bckgrnd-clr: #F7F5F2;
+    --accent: #F56D91;
+    --font-secondary: #DFDFDE;
+    --font-accent: #8D8DAA;
+    --font-main: #ffffff
+}
+section {
+    padding-top: 5rem;
+    min-height: fit-content;
+    resize: both;
+    overflow: auto;
+    background-attachment: fixed;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--font-main);
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title__section-container {
+    height: 10rem;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--bckgrnd-clr);
+    color: var(--accent);
+}

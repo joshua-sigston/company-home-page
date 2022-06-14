@@ -1,0 +1,29 @@
+.welcome__container {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-image: url('/resources/images/cover-image.jpg');
+}
+
+.title__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50%;
+}
+
+.title__container h1 {
+    font-size: 2rem;
+}
+
+.title__container p, .title__container h4 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.title__container p {
+    text-align: center;
+}
+
+

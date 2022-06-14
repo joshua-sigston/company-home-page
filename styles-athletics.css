@@ -1,0 +1,52 @@
+.athletics__container {
+    background-image: url('/resources/images/athletics-cover-image.jpg');
+
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.athletics__container  h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    color: var(--font-accent);
+}
+
+.athletics__container a {
+    color: var(--font-two);
+    margin-bottom: 1.2rem;
+    transition: 0.6s ease-in-out;
+}
+
+.options__container {
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-bottom: 5rem;
+}
+
+.item {
+    margin: 1.2rem;
+    text-align: center;
+}
+
+.item img {
+    height: 300px;
+    width: 250px;
+    border-radius: 8%;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0, 0.3);
+    transition: 0.6s ease-in-out;
+}
+
+.item img:hover, .athletics__container a:hover {
+    transform: scale(1.1);
+}
+
+.item p {
+    margin-top: 1.2rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--accent);
+}
