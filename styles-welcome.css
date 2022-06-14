@@ -3,7 +3,7 @@
     align-items: center;
     height: 100vh;
 
-    background-image: url('/resources/images/cover-image.jpg');
+    background-image: url('cover-image.jpg');
 }
 
 .title__container {
