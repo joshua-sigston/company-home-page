@@ -1,5 +1,5 @@
 .athletics__container {
-    background-image: url('/resources/images/athletics-cover-image.jpg');
+    background-image: url('athletics-cover-image.jpg');
 
     flex-direction: column;
     align-items: center;

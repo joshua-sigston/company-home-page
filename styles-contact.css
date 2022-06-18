@@ -3,7 +3,7 @@
     align-items: center;
     height: 100vh;
 
-    background-image: url('/resources/images/contact-cover.jpg');
+    background-image: url('contact-cover.jpg');
 
     flex-direction: column;
     justify-content: center;

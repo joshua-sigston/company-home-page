@@ -1,5 +1,5 @@
 .about__us-container {
-    background-image: url('/resources/images/about-us-cover.jpg');
+    background-image: url('about-us-cover.jpg');
 
     flex-direction: column;
     align-items: center;
