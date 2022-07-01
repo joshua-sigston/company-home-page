@@ -1,5 +1,5 @@
 .top__staff-container {
-    background-image: url('/images/purpose-cover-image.jpg');
+    background-image: url('images/purpose-cover-image.jpg');
 
     flex-direction: column;
     padding-inline: 2rem;
