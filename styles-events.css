@@ -1,5 +1,5 @@
 .events__container {
-    background-image: url('events-cover.jpg');
+    background-image: url('/images/events-cover.jpg');
     height: 100vh;
 
     flex-direction: column;

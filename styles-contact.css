@@ -3,7 +3,7 @@
     align-items: center;
     height: 100vh;
 
-    background-image: url('contact-cover.jpg');
+    background-image: url('/images/contact-cover.jpg');
 
     flex-direction: column;
     justify-content: center;
@@ -24,7 +24,7 @@
 
 .social__media-container {
     font-size: 3.5rem;
-    width: 100%;
+    width: 40%;
     justify-content: space-around;
 }
 

@@ -17,7 +17,7 @@
     --font-main: #ffffff
 }
 section {
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
     min-height: fit-content;
     resize: both;
     overflow: auto;
